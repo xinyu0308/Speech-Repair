@@ -5,7 +5,7 @@ The framework aims to improve listener comprehension of dysarthric Mandarin spee
 
 ---
 
-## Framework Overview
+## 🖼 Framework Overview
 
 Below is an illustration of the proposed system:
 
@@ -13,7 +13,12 @@ Below is an illustration of the proposed system:
 *Figure: Overview of the Formant-Guided Speech Repair system.*
 
 ---
+## 🌐 Demo
 
+You can explore our demo page here:
+👉 [Speech Repair Demo](https://xinyu0308.github.io/Speech_Repair/)
+
+---
 ## 📂 Modules
 
 This framework integrates three core modules:
@@ -25,7 +30,7 @@ This framework integrates three core modules:
 
   * Integrates **ESPnet**, **Fairseq**, and **S3PRL**.
   * Uses pretrained **chinese-wav2vec2-large** for robust ASR.
-* **Details:** See [ASR Training README](./ESPnet/CDSD/README.md).
+* **Details:** See [Pretrained Model-based ASR README](./ESPnet/CDSD/README.md).
 
 ---
 
