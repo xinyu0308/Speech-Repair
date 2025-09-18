@@ -1,25 +1,31 @@
-# Speech Repair Framework
+# Formant-Guided Speech Repair for Enhanced Comprehension of Mandarin Dysarthric Speech
 
-This repository integrates three core modules for **Mandarin dysarthric speech repair**:
+This repository hosts the official code for **Formant-Guided Speech Repair for Enhanced Comprehension of Mandarin Dysarthric Speech**.
+The framework aims to improve listener comprehension of dysarthric Mandarin speech by leveraging both **acoustic formant correction** and **text-guided speech reconstruction**.
 
-1. **TTS with Speaker Adaptation** — Speech generation using XTTS with a finetuned speaker encoder.
-2. **Pretrained Model-based ASR** — Speech recognition using pretrained wav2vec2 models with ESPnet/Fairseq/S3PRL.
-3. **Formant-Corrective Spectral Warping (FCSW)** — Vowel correction via forced alignment and spectral warping.
+---
 
-Each module has its own detailed README with installation and usage instructions. This document provides an overview.
+## 🖼 Framework Overview
+
+Below is an illustration of the proposed system:
+
+![Framework](./Figures/framework.jpg)
+*Figure: Overview of the Formant-Guided Speech Repair system.*
 
 ---
 
 ## 📂 Modules
 
-### 📝 Pretrained Model-based ASR
+This framework integrates three core modules:
+
+### 📝 ASR Module
 
 * **Goal:** Transcribe Mandarin dysarthric speech using pretrained self-supervised models.
 * **Key Features:**
 
   * Integrates **ESPnet**, **Fairseq**, and **S3PRL**.
   * Uses pretrained **chinese-wav2vec2-large** for robust ASR.
-* **Details:** See [Pretrained Model-based ASR README](./asr-pretrained/README.md).
+* **Details:** See [Pretrained Model-based ASR README](./ESPnet/CDSD/README.md).
 
 ---
 
@@ -30,9 +36,10 @@ Each module has its own detailed README with installation and usage instructions
 
   * Uses **Montreal Forced Aligner (MFA)** for phone-level alignment.
   * Extracts vowel statistics and applies spectral warping for correction.
-* **Details:** See [FCSW README](./fcws/README.md).
+* **Details:** See [FCSW README](./FCSW/README.md).
 
 ---
+
 ### 🔊 TTS with Speaker Adaptation
 
 * **Goal:** Generate natural Mandarin speech from text, conditioned on dysarthric speakers.
@@ -40,7 +47,7 @@ Each module has its own detailed README with installation and usage instructions
 
   * Finetune XTTS speaker encoder with your own dataset.
   * Generate speech using reference audio to preserve speaker identity.
-* **Details:** See [TTS with Speaker Adaptation README](./tts-speaker-adaptation/README.md).
+* **Details:** See [TTS with Speaker Adaptation README](./XTTS/README.md).
 
 ---
 
@@ -65,9 +72,4 @@ These modules can be combined into a **speech repair pipeline**:
 
 ---
 
-## 🎯 Summary
 
-* Use **ASR** for transcription.
-* Apply **FCSW** for vowel correction.
-* Use **TTS with Speaker Adaptation** for natural speech reconstruction.
-=
