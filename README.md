@@ -5,7 +5,7 @@ The framework aims to improve listener comprehension of dysarthric Mandarin spee
 
 ---
 
-## 🖼 Framework Overview
+## Framework Overview
 
 Below is an illustration of the proposed system:
 
@@ -25,7 +25,7 @@ This framework integrates three core modules:
 
   * Integrates **ESPnet**, **Fairseq**, and **S3PRL**.
   * Uses pretrained **chinese-wav2vec2-large** for robust ASR.
-* **Details:** See [Pretrained Model-based ASR README](./ESPnet/CDSD/README.md).
+* **Details:** See [ASR Training README](./ESPnet/CDSD/README.md).
 
 ---
 
