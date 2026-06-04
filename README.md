@@ -1,6 +1,6 @@
-# Formant-Guided Speech Repair for Enhanced Comprehension of Mandarin Dysarthric Speech
+# Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech
 
-This repository hosts the official code for **Formant-Guided Speech Repair for Enhanced Comprehension of Mandarin Dysarthric Speech**.
+This repository hosts the official code for **Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech**.
 The framework aims to improve listener comprehension of dysarthric Mandarin speech by leveraging both **acoustic formant correction** and **text-guided speech reconstruction**.
 
 ---
