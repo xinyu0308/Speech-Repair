@@ -9,7 +9,7 @@ The framework aims to improve listener comprehension of dysarthric Mandarin spee
 
 Below is an illustration of the proposed system:
 
-![Framework](./Figures/framework.jpg)
+![Framework](./Figures/framework_new.jpg)
 *Figure: Overview of the Formant-Guided Speech Repair system.*
 
 ---
