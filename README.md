@@ -1,6 +1,7 @@
 # Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech
 
-This repository hosts the official code for **Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech**, accepted to **INTERSPEECH 2026**.The framework aims to improve listener comprehension of dysarthric speech by leveraging both **acoustic formant correction** and **text-guided speech reconstruction**.
+This repository hosts the official code for **Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech**, accepted to **INTERSPEECH 2026**.
+The framework aims to improve listener comprehension of dysarthric speech by leveraging both **acoustic formant correction** and **text-guided speech reconstruction**.
 
 ---
 
