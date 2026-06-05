@@ -16,7 +16,7 @@ Below is an illustration of the proposed system:
 ## 🌐 Demo
 
 You can explore our demo page here:
-👉 [Speech Repair Demo](https://xinyu0308.github.io/Speech_Repair/)
+👉 [Speech Repair Demo](https://speech-repair.github.io/Demo/)
 
 ---
 ## 📂 Modules
@@ -34,14 +34,14 @@ This framework integrates three core modules:
 
 ---
 
-### 🎶 Formant-Corrective Spectral Warping (FCSW)
+### 🎶 Formant-Aligned Spectral Transformation (FAST)
 
 * **Goal:** Repair vowel distortions by correcting formant frequencies.
 * **Key Features:**
 
   * Uses **Montreal Forced Aligner (MFA)** for phone-level alignment.
   * Extracts vowel statistics and applies spectral warping for correction.
-* **Details:** See [FCSW README](./FCSW/README.md).
+* **Details:** See [FAST README](./FAST/README.md).
 
 ---
 
@@ -61,7 +61,7 @@ This framework integrates three core modules:
 These modules can be combined into a **speech repair pipeline**:
 
 1. **ASR Module** transcribes dysarthric speech into text.
-2. **FCSW Module** normalizes distorted vowels for cleaner acoustic cues.
+2. **FAST Module** normalizes distorted vowels for cleaner acoustic cues.
 3. **TTS with Speaker Adaptation** regenerates repaired speech while preserving speaker identity.
 
 ---
